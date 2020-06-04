@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.start{
+	position: relative;
+}
+
+.start p{
+	position: absolute;
+	top:550px;
+	left:550px;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: 40px;
+	padding: 7px;
+	color: black;
+	text-decoration: none;
+}
+
+.start p:hover{
+	background: rgba(255,255,255,0.3);
+
+}
+
+.start img{
+	wight:100%;
+}
+
+.start a{
+	position: relative;
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+ 	color: #FFF;
+ 	background: #03A9F4;/*色*/
+ 	border: solid 1px #0f9ada;/*線色*/
+ 	border-radius: 4px;
+ 	box-shadow: inset 0 1px rgba(255,255,255,0.2);
+ 	text-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.start a:active {
+  /*押したとき*/
+	border: solid 1px #03A9F4;
+	box-shadow: none;
+	text-shadow: none;
+}
+	
+
+.header1 P1{
+	position: absolute;
+	top: 2px;
+	left: 10px;
+	font-size: 25px;
+	
+}
+
+.header1 p2{
+	position: absolute;
+	top: 2px;
+	right: 20px;
+	font-size: 25px;
+			
+}
+
+
+.next001 {
+  position: absolute;
+  top:670px;
+  left:987px;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 25px;
+  background-image: linear-gradient(#5dd3ff 0%, #03a9f4 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.next001:active {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.32);
+  background-image: linear-gradient(#5dd3ff 0%, #03bcf4 100%);
+}
+
+
+.next002 {
+  position: absolute;
+  top:670px;
+  left:987px;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 25px;
+  background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.next002:active {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.32);
+  background-image: linear-gradient(#fed6e3 0%, #ffcfcf 100%);
+}
+
+
+
+.end{
+	position: relative;
+}
+
+.end p{
+	position: absolute;
+	top:700px;
+	left:550px;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: 30px;
+	padding: 7px;
+	color: black;
+	text-decoration: none;
+}
+
+.end p:hover{
+	background: rgba(255,255,255,0.3);
+
+}
+
+.end img{
+	wight:100%;
+}
+
+
+.img002{
+	width: 100%;
+	height:auto;
+}
+
+
+.end a{
+	position: relative;
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+ 	color: #FFF;
+ 	background: #03A9F4;/*色*/
+ 	border: solid 1px #0f9ada;/*線色*/
+ 	border-radius: 4px;
+ 	box-shadow: inset 0 1px rgba(255,255,255,0.2);
+ 	text-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.end a:active {
+  /*押したとき*/
+	border: solid 1px #03A9F4;
+	box-shadow: none;
+	text-shadow: none;
+}
